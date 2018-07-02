@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akriti.intentdemo.FirstFragment">
+
+    <TextView
+        android:id="@+id/fragmentAText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="This is First Fragment" />
+
+    <Button
+        android:id="@+id/addNumbersButton"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number2"
+        android:layout_marginTop="15dp"
+        android:text="Add Numbers"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/openNextFragment"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addNumbersButton"
+        android:layout_marginTop="15dp"
+        android:text="Open Next Fragment"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/openNextActivity"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openNextFragment"
+        android:layout_marginTop="15dp"
+        android:text="Open Next Activity"
+        android:textAllCaps="false"/>
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number1"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>
