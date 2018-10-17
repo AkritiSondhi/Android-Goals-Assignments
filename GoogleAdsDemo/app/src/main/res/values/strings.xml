@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Google Ads Demo</string>
+    <string name="title_activity_second_activiy">Interstitial</string>
+    <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
+    <string name="btn_fullscreen_ad">Show Interstitial Ad</string>
+    <string name="btn_rewarded_video">Show Rewarded Video Ad</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">add_your_id_here</string>
+    <string name="banner_home_footer">add_your_id_here</string>
+    <string name="interstitial_full_screen">add_your_id_here</string>
+    <string name="rewarded_video">add_your_id_here</string>
+</resources>
